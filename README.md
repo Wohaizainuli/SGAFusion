@@ -9,7 +9,7 @@ Semantic-Guided Adaptive Fusion for Infrared-Visible Images Under Degradation Co
 
 The structure of **SGAFusion** is illustrated in the figure below:
 
-![SGAFusion Architecture](./path_to_your_image.png)
+![SGAFusion Architecture](images/Algorithm Framework.jpg)
 
 *Figure: Overall architecture of SGAFusion, showing semantic-guided fusion under degradation conditions.*
 
