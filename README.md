@@ -9,25 +9,10 @@
 The structure of **SGAFusion** is illustrated in the figure below:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
 
 
-*Figure: Overall architecture of SGAFusion, showing semantic-guided fusion under degradation conditions.*
+*Figure: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process.*
 
 ## 🔹 Dataset
 To begin, please first acquire the datasets. This project uses four publicly available infrared-visible image fusion datasets:
