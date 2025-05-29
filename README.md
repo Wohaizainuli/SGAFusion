@@ -12,6 +12,19 @@ The structure of **SGAFusion** is illustrated in the figure below:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
 
 
