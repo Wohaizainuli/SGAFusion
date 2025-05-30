@@ -34,9 +34,31 @@ To begin, please first acquire the datasets. This project uses four publicly ava
   
 Please refer to the official sources of each dataset for download and usage instructions.
 
+## 🔹 Model Training
+
+The model’s loss relationships are illustrated in Figure 4 below.
 
 
-##  Result
+![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Loss.jpg)
+
+
+
+*Fig. 4: Loss Function. For implementation details, see `scripts/losses.py` and the loss calls in the training scripts.*
+
+
+Model training consists of three steps:
+
+1. **Train CLIP with LoRA**  
+   Run `lora_clip.py` on visible images to obtain degradation-type embeddings via the CLIP classifier. Save the resulting weights as **W1**.
+
+2. **Joint Segmentation & Fusion Training**  
+   Initialize from **W1** and run `train_funtune.py` to optimize both the segmentation and fusion losses. Save the updated weights as **W2**.
+
+3. **Fusion-Only Fine-Tuning**  
+   Load both **W1** and **W2**, then run `train.py` to fine-tune exclusively on the fusion loss for final performance gains.
+
+
+## 🔹 Result
 
 Partial fusion results of SAGFusion are displayed below, and the fusion outputs for the first five visible–infrared image pairs from each dataset are saved in the **result** folder.
 
