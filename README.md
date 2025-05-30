@@ -12,7 +12,7 @@ The structure of **SGAFusion** is illustrated in the figure below:
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
 
 
-*Fig .1: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process.*
+*Fig. 1: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process. For the detailed network structure, please refer to `model/resnet.py`.*
 
 
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Encoder%20and%20Decoder.jpg)
