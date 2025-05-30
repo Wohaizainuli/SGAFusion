@@ -18,7 +18,7 @@ The structure of **SGAFusion** is illustrated in the figure below:
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Encoder%20and%20Decoder.jpg)
 
 
-*Fig .2: The structure of Encoder and Decoder*
+*Fig .2: The structure of Encoder and Decoder. For the detailed network structure, please refer to `model/resnet.py`.*
 ## 🔹 Dataset
 To begin, please first acquire the datasets. This project uses four publicly available infrared-visible image fusion datasets:
 - **LLVIP**：http://bupt-ai-cz.github.io/LLVIP/
