@@ -29,7 +29,8 @@ To begin, please first acquire the datasets. This project uses four publicly ava
 Please refer to the official sources of each dataset for download and usage instructions.
 
 ##  Result
-The selected SGAFusion results are shown in the figure below, and the first five images from each dataset have been placed in the **result** folder.
+
+Partial fusion results of SAGFusion are displayed below, and the fusion outputs for the first five visible–infrared image pairs from each dataset are saved in the **result** folder.
 
 
 <p align="center">
