@@ -28,3 +28,10 @@ To begin, please first acquire the datasets. This project uses four publicly ava
   
 Please refer to the official sources of each dataset for download and usage instructions.
 
+##  Result
+The selected SGAFusion results are shown in the figure below, and the first five images from each dataset have been placed in the **result** folder.
+
+
+![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Encoder%20and%20Decoder.jpg)
+
+*Fig .1:The fusion result
