@@ -12,8 +12,13 @@ The structure of **SGAFusion** is illustrated in the figure below:
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
 
 
-*Figure: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process.*
+*Fig .1: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process.*
 
+
+![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
+
+
+*Fig .2: The structure of Encoder and Decoder
 ## 🔹 Dataset
 To begin, please first acquire the datasets. This project uses four publicly available infrared-visible image fusion datasets:
 - **LLVIP**：http://bupt-ai-cz.github.io/LLVIP/
