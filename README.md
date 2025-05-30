@@ -12,17 +12,17 @@ The structure of **SGAFusion** is illustrated in the figure below:
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Algorithm%20Framework.jpg)
 
 
-*Fig. 1: Overall architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process. For the detailed network structure, please refer to `model/resnet.py`.*
+*Fig. 1: Overall Architecture of SGAFusion. Semantic information representing degradation types is automatically generated from the visible image via the CLIP model, and used as the query (Q) in the attention mechanism to guide the fusion process. For the detailed network structure, please refer to `model/resnet.py`.*
 
 
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Encoder%20and%20Decoder.jpg)
 
 
-*Fig .2: The structure of Encoder and Decoder. For the detailed network structure, please refer to `model/resnet.py`.*
+*Fig .2: The Structure of Encoder and Decoder. For the detailed network structure, please refer to `model/resnet.py`.*
 
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Expert%20Structures.jpg)
 
-*Fig. 3: Expert structures. Detailed implementations of DehazeNet and LowNet can be found in `model/deal/`, while the remaining experts are defined in `model/resnet.py`.*
+*Fig. 3: Expert Structures. Detailed implementations of DehazeNet and LowNet can be found in `model/deal/`, while the remaining experts are defined in `model/resnet.py`.*
 
 
 ## 🔹 Dataset
@@ -70,6 +70,6 @@ Partial fusion results of SAGFusion are displayed below, and the fusion outputs 
 <p align="center">
   <img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="fusion result" width="60%" />
   <br/>
-  <em>Fig. 3: Fusion results of SAGFusion</em>
+  <em>Fig. 5: Fusion Results of SAGFusion</em>
 </p>
 
