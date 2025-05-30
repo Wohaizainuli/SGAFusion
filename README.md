@@ -36,5 +36,6 @@ Partial fusion results of SAGFusion are displayed below, and the fusion outputs 
 <p align="center">
   <img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="fusion result" width="60%" />
   <br/>
-  *Fig. 3: Fusion results of SAGFusion*
+  <em>Fig. 3: Fusion results of SAGFusion</em>
 </p>
+
