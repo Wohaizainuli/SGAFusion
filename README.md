@@ -57,6 +57,10 @@ Model training consists of three steps:
 3. **Fusion-Only Fine-Tuning**  
    Load both **W1** and **W2**, then run `train.py` to fine-tune exclusively on the fusion loss for final performance gains.
 
+## 🔹 Model Testing
+
+Once training is complete, run `test.py`. Select your target dataset and specify the corresponding weight file paths. After execution, the fused output images will be generated and saved in the `test/` folder.
+
 
 ## 🔹 Result
 
