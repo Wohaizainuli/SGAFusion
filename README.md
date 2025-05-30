@@ -19,6 +19,12 @@ The structure of **SGAFusion** is illustrated in the figure below:
 
 
 *Fig .2: The structure of Encoder and Decoder. For the detailed network structure, please refer to `model/resnet.py`.*
+
+![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Expert%20Structures.jpg)
+
+*Fig. 3: Expert structures. Detailed implementations of DehazeNet and LowNet can be found in `model/deal/`, while the remaining experts are defined in `model/resnet.py`.*
+
+
 ## 🔹 Dataset
 To begin, please first acquire the datasets. This project uses four publicly available infrared-visible image fusion datasets:
 - **LLVIP**：http://bupt-ai-cz.github.io/LLVIP/
@@ -27,6 +33,8 @@ To begin, please first acquire the datasets. This project uses four publicly ava
 - **RoadScene**：https://github.com/hanna-xu/RoadScene
   
 Please refer to the official sources of each dataset for download and usage instructions.
+
+
 
 ##  Result
 
