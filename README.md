@@ -33,8 +33,7 @@ The selected SGAFusion results are shown in the figure below, and the first five
 
 
 <p align="center">
-  <img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="result image" width="50%" />
+  <img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="fusion result" width="50%" />
+  <br/>
+  *Fig. 3: Fusion results of SAGFusion
 </p>
-
-
-*Fig .1:The fusion result
