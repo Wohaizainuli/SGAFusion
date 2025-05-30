@@ -32,6 +32,6 @@ Please refer to the official sources of each dataset for download and usage inst
 The selected SGAFusion results are shown in the figure below, and the first five images from each dataset have been placed in the **result** folder.
 
 
-![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Encoder%20and%20Decoder.jpg)
+![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg)
 
 *Fig .1:The fusion result
