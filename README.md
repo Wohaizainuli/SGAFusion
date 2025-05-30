@@ -32,6 +32,9 @@ Please refer to the official sources of each dataset for download and usage inst
 The selected SGAFusion results are shown in the figure below, and the first five images from each dataset have been placed in the **result** folder.
 
 
-<img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="result image" width="50%" />
+<p align="center">
+  <img src="https://github.com/Wohaizainuli/SGAFusion/blob/main/images/result.jpg" alt="result image" width="50%" />
+</p>
+
 
 *Fig .1:The fusion result
