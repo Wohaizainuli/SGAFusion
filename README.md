@@ -22,7 +22,7 @@ The structure of **SGAFusion** is illustrated in the figure below:
 
 ![image](https://github.com/Wohaizainuli/SGAFusion/blob/main/images/Expert%20Structures.jpg)
 
-*Fig. 3: Expert Structures. Detailed implementations of DehazeNet and LowNet can be found in `model/deal/`, while the remaining experts are defined in `model/resnet.py`.`FMoEGate.py` and `Mltransformer.py`.*
+*Fig. 3: Expert Structures. Detailed implementations of DehazeNet and LowNet can be found in `model/deal/`, while the remaining experts are defined in `model/resnet.py`.*
 
 
 ## 🔹 Dataset
